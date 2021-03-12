@@ -54,4 +54,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno505
 BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom 
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
+# VNDK
+BOARD_VNDK_VERSION := current
